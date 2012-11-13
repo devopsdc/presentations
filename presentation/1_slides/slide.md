@@ -1,4 +1,10 @@
 !SLIDE 
+# Wireless #
+
+* SSID: Client
+* Passcode: 86458
+
+!SLIDE 
 # DevOpsDC #
 
 * 6:30 - 7:00

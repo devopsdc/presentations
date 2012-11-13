@@ -44,6 +44,14 @@ http://monitorama.com/
 * Something we all should know?
 
 !SLIDE
+# AudaxHealth #
+
+* Solve interesting problems
+* Using all the cool tools
+* With a great team
+* At a convenient location
+
+!SLIDE
 # January Meetup #
 
 * Tuesday, January 8
