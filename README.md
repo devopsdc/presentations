@@ -1,6 +1,6 @@
-## CustomInk Presentations
+## DevOpsDC Presentations
 
-This project contains CustomInk Presentations built using with [showoff](https://github.com/schacon/showoff)
+This project contains DevOpsDC Presentations built using with [showoff](https://github.com/schacon/showoff)
 
 The `.rvmrc` file with the project assumes you have `ree` installed with rvm.  Previous experience shows that ruby 1.9.x doesn't work with showoff presentations that include images.
 
