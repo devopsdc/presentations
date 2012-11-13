@@ -2,7 +2,7 @@
 
 This project contains DevOpsDC Presentations built using with [showoff](https://github.com/schacon/showoff)
 
-The `.rvmrc` file with the project assumes you have `ree` installed with rvm.  Previous experience shows that ruby 1.9.x doesn't work with showoff presentations that include images.
+The `.rvmrc` file with the project assumes you have `ruby-1.9.3-p194` installed with rvm.
 
 ## Initial Setup
 * `gem install bundler`
