@@ -11,5 +11,12 @@
 !SLIDE
 # Sponsors - Thanks! #
 
+![Audax Health](../images/Audax_logo.jpg)
+
+!SLIDE
+# Sponsors - Thanks! #
+
+![Opscode](../images/Opscode.png)
+
 
 
