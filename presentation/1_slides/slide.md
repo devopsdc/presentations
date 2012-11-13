@@ -5,11 +5,11 @@
   * Meet, greet, and eat
 * 7:00 - 7:15
   * Welcome, announcements, and introductions
-* 7:15 - 8:30
-  * Lightning Talks
+* 7:15 - 8:45
+  * Presentations
 
 !SLIDE
 # Sponsors - Thanks! #
 
-Big thanks to CustomInk for hosting our meetup tonight!
+
 
