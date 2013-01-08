@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ruby_string="ruby-1.9.3-p194"
+ruby_string="ruby-1.9.3-p327"
 gemset_name="presentations"
 
 if rvm list strings | grep -q "${ruby_string}" ; then
