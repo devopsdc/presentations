@@ -1,8 +1,9 @@
 !SLIDE 
 # Wireless #
 
-* SSID: Client
-* Passcode: 86458
+* SSID: CustomInk-Guest
+* Username: DevOpsDC
+* Passcode: Password1
 
 !SLIDE 
 # DevOpsDC #
@@ -17,12 +18,18 @@
 !SLIDE
 # Sponsors - Thanks! #
 
-![Audax Health](../images/Audax_logo.jpg)
+![OpenMake Software](../images/openmake_logo.png)
+
+OpenMake Software, theDevOps Authority, delivers a dynamic DevOps solution
+for streamlining, standardizing and controlling the handoff of software
+from Development Teams to IT Operations. Our solutions enable customers to
+manage incremental software releases, leverage cloud environments, increase
+developer productivity, eliminate manual bottlenecks, and provide
+management with actionable traceability reports.
 
 !SLIDE
 # Sponsors - Thanks! #
 
 ![Opscode](../images/Opscode.png)
 
-
-
+![CustomInk](../images/inky-logotype-expanded.png)

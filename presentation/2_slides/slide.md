@@ -3,11 +3,6 @@
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
 !SLIDE
-# PagerDuty
-
-* One month free on the MeetUp website
-
-!SLIDE
 # DevOpsDays NYC
 
 ![DevOpsDays NYC](../images/devopsdaysnyc.png)
@@ -18,6 +13,8 @@ http://devopsdays.org/
 
 January 17-18, 2013
 
+.notes Acela #2100 departs Union Station at 6:00AM
+
 !SLIDE
 # Monitorama
 
@@ -26,14 +23,52 @@ January 17-18, 2013
 http://monitorama.com/
 
 !SLIDE
+# #ChefConf 2013
+
+![#ChefConf 2013](../images/chefconf.jpg)
+
+http://chefconf.opscode.com
+
+Discount Code:  OPSCODE-MEETUP
+
+CFP closes 15 February.  
+Submit your talk tomorrow morning!
+
+!SLIDE
+# Moar Tech Conferences #
+
+![Open CFPs](../images/CFPs.jpg)
+
+http://wiki.opscode.com/display/chef/Technical+Conferences
+
+!SLIDE
 # Food Fight! #
 
 * The Podcast Where DevOps Chefs Do Battle
 * http://foodfightshow.org
-* https://github.com/foodfight/showz
+* http://bit.ly/ffsmail
 * @FoodFightShow
 
 ![Foodfight Show](../images/foodfight_bw.png)
+
+!SLIDE
+# Chef Introductory Workshop
+
+* One-day intro workshop for Chef
+* Next Tuesday, Jan 15 9:00-5:00
+* MEETUP - saves you 10%
+* Only 3 seats left
+
+!SLIDE
+# February Meetup #
+
+* Tuesday, February 19
+* At [TBD]
+* Creating the Next Generation of Techies
+
+Avleen Vig and Patrick McDonnell from Etsy and Ops School will be in town
+for this joint-meetup to talk about Ops School and training sysadmins.
+We'll have some additional talks, too.
 
 !SLIDE
 # Introductions & Announcements #
@@ -42,19 +77,3 @@ http://monitorama.com/
 * Looking for work?
 * Attending or speaking at a conference?
 * Something we all should know?
-
-!SLIDE
-# AudaxHealth #
-
-* Solve interesting problems
-* Using all the cool tools
-* With a great team
-* At a convenient location
-
-!SLIDE
-# January Meetup #
-
-* Tuesday, January 8
-* At CustomInk
-* Real World Ruby Tricks - Robie Lutsey
-* What else should we talk about?
