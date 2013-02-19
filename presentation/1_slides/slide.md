@@ -1,35 +1,19 @@
 !SLIDE 
-# Wireless #
+# Creating the Next Generation of Techies #
 
-* SSID: CustomInk-Guest
-* Username: DevOpsDC
-* Passcode: Password1
-
-!SLIDE 
-# DevOpsDC #
-
-* 6:30 - 7:00
-  * Meet, greet, and eat
-* 7:00 - 7:15
-  * Welcome, announcements, and introductions
-* 7:15 - 8:45
-  * Presentations
+* 6:30 - 7:00 - Meet, greet, and eat
+* 7:00 - 7:15 - Welcome
+* 7:15 - 7:55 - Ops School
+* 7:55 - 8:10 - Lightning Talks
+* 8:10 - 8:50 - Theo
 
 !SLIDE
 # Sponsors - Thanks! #
 
-![OpenMake Software](../images/openmake_logo.png)
+## ![Serena](../images/serenalogo.jpg)
+ 
 
-OpenMake Software, theDevOps Authority, delivers a dynamic DevOps solution
-for streamlining, standardizing and controlling the handoff of software
-from Development Teams to IT Operations. Our solutions enable customers to
-manage incremental software releases, leverage cloud environments, increase
-developer productivity, eliminate manual bottlenecks, and provide
-management with actionable traceability reports.
+## ![CustomInk](../images/inky-logotype-expanded.png)
 
-!SLIDE
-# Sponsors - Thanks! #
+## ![Opscode](../images/Opscode.png)
 
-![Opscode](../images/Opscode.png)
-
-![CustomInk](../images/inky-logotype-expanded.png)

@@ -3,26 +3,6 @@
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
 !SLIDE
-# DevOpsDays NYC
-
-![DevOpsDays NYC](../images/devopsdaysnyc.png)
-
-@devopsdays
-
-http://devopsdays.org/
-
-January 17-18, 2013
-
-.notes Acela #2100 departs Union Station at 6:00AM
-
-!SLIDE
-# Monitorama
-
-![Monitorama](../images/monitorama.png)
-
-http://monitorama.com/
-
-!SLIDE
 # #ChefConf 2013
 
 ![#ChefConf 2013](../images/chefconf.jpg)
@@ -31,15 +11,13 @@ http://chefconf.opscode.com
 
 Discount Code:  OPSCODE-MEETUP
 
-CFP closes 15 February.  
-Submit your talk tomorrow morning!
-
 !SLIDE
-# Moar Tech Conferences #
+# LOPSA-East
+![LOPSA-East](../images/LOPSA-East.jpg)
 
-![Open CFPs](../images/CFPs.jpg)
+http://lopsa-east.org/2013/
 
-http://wiki.opscode.com/display/chef/Technical+Conferences
+Discount Code:  baltimoreDClopsaeast13
 
 !SLIDE
 # Food Fight! #
@@ -55,20 +33,33 @@ http://wiki.opscode.com/display/chef/Technical+Conferences
 # Chef Introductory Workshop
 
 * One-day intro workshop for Chef
-* Next Tuesday, Jan 15 9:00-5:00
+* Next Tuesday, Feb 27 9:00-5:00
 * MEETUP - saves you 10%
-* Only 3 seats left
+* Only 4 seats left
 
 !SLIDE
-# February Meetup #
+# Meetup Groups
 
-* Tuesday, February 19
-* At [TBD]
-* Creating the Next Generation of Techies
+* Arlington Ruby
+* Big Data DC
+* Cloud DC
+* Crabby Admins
+* DC Agile Software Testing Group
 
-Avleen Vig and Patrick McDonnell from Etsy and Ops School will be in town
-for this joint-meetup to talk about Ops School and training sysadmins.
-We'll have some additional talks, too.
+!SLIDE
+# Meetup Groups
+
+* DC Continuous Integration, Delivery, & Deployment Group
+* DC Ruby User Group
+* DevOpsDC
+* LOPSA DC
+* NOVA MySQL
+
+!SLIDE
+# Meetup Groups
+
+* TechBreakfast
+* Washington DC Google Developer Group
 
 !SLIDE
 # Introductions & Announcements #
