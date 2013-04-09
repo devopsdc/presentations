@@ -30,36 +30,12 @@ Discount Code:  baltimoreDClopsaeast13
 ![Foodfight Show](../images/foodfight_bw.png)
 
 !SLIDE
-# Chef Introductory Workshop
+# Chef Fundamentals - Windows
 
-* One-day intro workshop for Chef
-* Next Tuesday, Feb 27 9:00-5:00
+* Two-day intro workshop for Chef
+* Managing Windows environments with Chef
+* May 29-30
 * MEETUP - saves you 10%
-* Only 4 seats left
-
-!SLIDE
-# Meetup Groups
-
-* Arlington Ruby
-* Big Data DC
-* Cloud DC
-* Crabby Admins
-* DC Agile Software Testing Group
-
-!SLIDE
-# Meetup Groups
-
-* DC Continuous Integration, Delivery, & Deployment Group
-* DC Ruby User Group
-* DevOpsDC
-* LOPSA DC
-* NOVA MySQL
-
-!SLIDE
-# Meetup Groups
-
-* TechBreakfast
-* Washington DC Google Developer Group
 
 !SLIDE
 # Introductions & Announcements #
