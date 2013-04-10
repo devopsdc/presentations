@@ -3,7 +3,6 @@
 </div>
 <footer>
   <span class="inky">
-  bit.ly/ZpsSnr
   <!--
    <img src="/image/images/inky-logotype-expanded.png" width="168" height="40"/>
   -->
