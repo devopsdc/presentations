@@ -3,21 +3,20 @@
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
 !SLIDE
-# #ChefConf 2013
+# Velocity Conference #
 
-![#ChefConf 2013](../images/chefconf.jpg)
+![Velocity](../images/velocity_2013.jpg)
 
-http://chefconf.opscode.com
+!SLIDE 
+# Surge Conference #
 
-Discount Code:  OPSCODE-MEETUP
+![surge](../images/surge_2013.jpg) 
 
-!SLIDE
-# LOPSA-East
-![LOPSA-East](../images/LOPSA-East.jpg)
+* MEETUP saves you 10%
+* surge.omniti.com
+* Keynote from Gene Kranz
+* Talks from Netflix, Joyent, and more
 
-http://lopsa-east.org/2013/
-
-Discount Code:  baltimoreDClopsaeast13
 
 !SLIDE
 # Food Fight! #
@@ -30,12 +29,12 @@ Discount Code:  baltimoreDClopsaeast13
 ![Foodfight Show](../images/foodfight_bw.png)
 
 !SLIDE
-# Chef Fundamentals - Windows
+# Chef Fundamentals
 
 * Two-day intro workshop for Chef
-* Managing Windows environments with Chef
-* May 29-30
-* MEETUP - saves you 10%
+* June 25-26
+* opscode.eventbrite.com
+* DEVOPSDC - saves you 25%
 
 !SLIDE
 # Introductions & Announcements #
