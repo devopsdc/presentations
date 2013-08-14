@@ -2,6 +2,9 @@
 # Follow @DevOpsDC #
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
+!SLIDE
+# We now have 500+ Members!
+
 !SLIDE 
 # Surge Conference #
 
