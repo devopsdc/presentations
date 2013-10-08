@@ -2,25 +2,22 @@
 # Follow @DevOpsDC #
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
+!SLIDE 
+# LISA Conference #
+
+![lisa](../images/lisa.jpg) 
+
+* Early Bird ends Oct 15
+* One-day Intro to Chef on 11/7
+
 !SLIDE
-# We now have 500+ Members!
+# Opscode Community Summit #
 
-!SLIDE 
-# Surge Conference #
+* November 12-13 in Seattle
+* 2 days of Open Spaces with the Community
+* Discount code MEETUP saves you 10%!
 
-![surge](../images/surge_2013.jpg) 
-
-* MEETUP saves you 10%
-* surge.omniti.com
-* Keynote from Gene Kranz
-* Talks from Netflix, Joyent, and more
-
-!SLIDE 
-# Surge Conference #
-
-![surge](../images/surge_2013.jpg) 
-
-* FREE two-day Chef training
+https://www.regonline.com/opscodesummit-2013
 
 !SLIDE
 # Food Fight! #
@@ -43,7 +40,5 @@
 !SLIDE
 # Next Meeting #
 
-* October 8 - Needs a location
-* Robert Treat - Less Alarming Alerts
-* Looking for one more speaker
-
+* November 5 - Needs a location
+* Introduction to Ansible with Michael DeHaan
