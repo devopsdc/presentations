@@ -2,6 +2,12 @@
 # Follow @DevOpsDC #
 ![@devopsdc](../images/devopsdc_on_twitter.jpg)
 
+!SLIDE
+# Velocity! #
+
+## And DevOpsDays
+
+
 !SLIDE 
 # LISA Conference #
 
