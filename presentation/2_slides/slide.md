@@ -1,39 +1,17 @@
 !SLIDE
 # Follow @DevOpsDC #
-![@devopsdc](../images/devopsdc_on_twitter.jpg)
+![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
-# Velocity! #
+# Upcoming Conferences #
 
-## And DevOpsDays
+* \#ChefConf - Next week - San Francisco
+* LOPSA-East - May 2-3 - NJ
+* DevOps Days Pittsburgh - May 29-30
+* QCon NYC - June 9-13 - NY
+* DevOps Summit - June 10-12 - NY
+* Surge - Sept 24-26 - National Harbor
 
-
-!SLIDE 
-# LISA Conference #
-
-![lisa](../images/lisa.jpg) 
-
-* Early Bird ends Oct 15
-* One-day Intro to Chef on 11/7
-
-!SLIDE
-# Opscode Community Summit #
-
-* November 12-13 in Seattle
-* 2 days of Open Spaces with the Community
-* Discount code MEETUP saves you 10%!
-
-https://www.regonline.com/opscodesummit-2013
-
-!SLIDE
-# Food Fight! #
-
-* The Podcast Where DevOps Chefs Do Battle
-* http://foodfightshow.org
-* http://bit.ly/ffsmail
-* @FoodFightShow
-
-![Foodfight Show](../images/foodfight_bw.png)
 
 !SLIDE
 # Introductions & Announcements #
@@ -46,5 +24,6 @@ https://www.regonline.com/opscodesummit-2013
 !SLIDE
 # Next Meeting #
 
-* November 5 - Needs a location
-* Introduction to Ansible with Michael DeHaan
+* Sometime in June.  
+
+* Tentatively June 10 but that overlaps with Nathen's travel plans (QCon NYC and DevOps Summit)
