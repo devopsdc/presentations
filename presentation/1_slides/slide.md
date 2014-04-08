@@ -9,8 +9,4 @@
 !SLIDE
 # Sponsors - Thanks! #
 
-## ![CustomInk](../images/inky-logotype-expanded.png)
-
-## ![Opscode](../images/Opscode.png)
- 
 
