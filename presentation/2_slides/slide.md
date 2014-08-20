@@ -5,13 +5,17 @@
 !SLIDE
 # Upcoming Conferences #
 
-* \#ChefConf - Next week - San Francisco
-* LOPSA-East - May 2-3 - NJ
-* DevOps Days Pittsburgh - May 29-30
-* QCon NYC - June 9-13 - NY
-* DevOps Summit - June 10-12 - NY
+* VMWorld - Aug 24-28 - San Francisco
+* Postgres Open - Sept 17-19 in Chicago
+* FlowCon - Sept 3-4 - San Francisco
+* Chef Community Summit - October - Seattle & London
+
+!SLIDE
+# Local Badass Conference#
+
 * Surge - Sept 24-26 - National Harbor
 
+  * No excuse, go to this one!
 
 !SLIDE
 # Introductions & Announcements #
@@ -21,9 +25,21 @@
 * Attending or speaking at a conference?
 * Something we all should know?
 
+
+!SLIDE
+
+# DevOpsDC - The Future #
+
+* Meet more frequently
+* Topics
+  * Hacking
+  * Open spaces
+  * ...
+  * ...
+* Google Hangout to discuss?
+
 !SLIDE
 # Next Meeting #
 
-* Sometime in June.  
-
-* Tentatively June 10 but that overlaps with Nathen's travel plans (QCon NYC and DevOps Summit)
+* September?
+* October 14th by our schedule...
