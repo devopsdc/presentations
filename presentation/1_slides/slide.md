@@ -11,4 +11,4 @@
 
 ![Chef](../images/Chef_Vertical_Website_Reg.png)
 
-![AddThis](../images/addthis.jpg)
+![USPTO](../images/uspto.jpg)

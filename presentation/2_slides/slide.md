@@ -5,17 +5,22 @@
 !SLIDE
 # Upcoming Conferences #
 
-* VMWorld - Aug 24-28 - San Francisco
-* Postgres Open - Sept 17-19 in Chicago
-* FlowCon - Sept 3-4 - San Francisco
-* Chef Community Summit - October - Seattle & London
+* ChefConf - March 31 - April 2 - Santa Clara
+* DevOpsDays DC - Update in a few
 
 !SLIDE
-# Local Badass Conference#
+# USPTO DevOps Meetup #
 
-* Surge - Sept 24-26 - National Harbor
+* January 14 - 5:30 - 8:00
+* Here with Ryan Frantz and Danial Schauenberg from Etsy
 
-  * No excuse, go to this one!
+![USPTO Meetup](../images/uspto_devops_meetup.jpg)
+
+!SLIDE
+
+# DevOpsDays DC #
+
+* We are bringing DevOpsDays to DC
 
 !SLIDE
 # Introductions & Announcements #
@@ -25,21 +30,8 @@
 * Attending or speaking at a conference?
 * Something we all should know?
 
-
-!SLIDE
-
-# DevOpsDC - The Future #
-
-* Meet more frequently
-* Topics
-  * Hacking
-  * Open spaces
-  * ...
-  * ...
-* Google Hangout to discuss?
-
 !SLIDE
 # Next Meeting #
 
-* September?
-* October 14th by our schedule...
+* December 9
+* ZFS
