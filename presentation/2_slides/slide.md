@@ -5,7 +5,7 @@
 !SLIDE
 # Upcoming Conferences #
 
-* ChefConf - March 31 - April 2 - Santa Clara
+* ChefConf - Mar 31 - Apr 2 - Santa Clara
 * DevOpsDays DC - Update in a few
 
 !SLIDE
