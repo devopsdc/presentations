@@ -12,7 +12,7 @@
 # USPTO DevOps Meetup #
 
 * January 14 - 5:30 - 8:00
-* Here with Ryan Frantz and Danial Schauenberg from Etsy
+* Here with Ryan Frantz and Daniel Schauenberg from Etsy
 
 ![USPTO Meetup](../images/uspto_devops_meetup.jpg)
 
