@@ -3,16 +3,18 @@
 ![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
-# Upcoming Conferences #
+# GoCD Hackathon #
 
-* ChefConf - Mar 31 - Apr 2 - Santa Clara
-* DevOpsDays DC - Update in a few
+* Saturday, December 13, 9AM-5PM
+* L-3 Data Tactics
+* McLean, VA
+
 
 !SLIDE
 # USPTO DevOps Meetup #
 
 * January 14 - 5:30 - 8:00
-* Here with Ryan Frantz and Daniel Schauenberg from Etsy
+* At the USPTO with Ryan Frantz and Daniel Schauenberg from Etsy
 
 ![USPTO Meetup](../images/uspto_devops_meetup.jpg)
 
@@ -33,5 +35,4 @@
 !SLIDE
 # Next Meeting #
 
-* December 9
-* ZFS
+* January 13
