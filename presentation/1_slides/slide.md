@@ -9,6 +9,5 @@
 !SLIDE
 # Sponsors - Thanks! #
 
-![CustomInk](../images/inky-logotype-expanded.png)
 
 ![Chef](../images/Chef_Vertical_Website_Reg.png)

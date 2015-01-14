@@ -3,14 +3,6 @@
 ![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
-# GoCD Hackathon #
-
-* Saturday, December 13, 9AM-5PM
-* L-3 Data Tactics
-* McLean, VA
-
-
-!SLIDE
 # USPTO DevOps Meetup #
 
 * January 14 - 5:30 - 8:00
@@ -35,4 +27,4 @@
 !SLIDE
 # Next Meeting #
 
-* January 13
+* February 10?
