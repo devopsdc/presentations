@@ -1,39 +1,20 @@
 !SLIDE
 # Follow @DevOpsDC #
-![@devopsdc](../images/devopsdc_on_twitter.jpg)
+![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
-# PagerDuty
+# USPTO DevOps Meetup #
 
-* One month free on the MeetUp website
+* January 14 - 5:30 - 8:00
+* At the USPTO with Ryan Frantz and Daniel Schauenberg from Etsy
 
-!SLIDE
-# DevOpsDays NYC
-
-![DevOpsDays NYC](../images/devopsdaysnyc.png)
-
-@devopsdays
-
-http://devopsdays.org/
-
-January 17-18, 2013
+![USPTO Meetup](../images/uspto_devops_meetup.jpg)
 
 !SLIDE
-# Monitorama
 
-![Monitorama](../images/monitorama.png)
+# DevOpsDays DC #
 
-http://monitorama.com/
-
-!SLIDE
-# Food Fight! #
-
-* The Podcast Where DevOps Chefs Do Battle
-* http://foodfightshow.org
-* https://github.com/foodfight/showz
-* @FoodFightShow
-
-![Foodfight Show](../images/foodfight_bw.png)
+* We are bringing DevOpsDays to DC
 
 !SLIDE
 # Introductions & Announcements #
@@ -44,9 +25,6 @@ http://monitorama.com/
 * Something we all should know?
 
 !SLIDE
-# January Meetup #
+# Next Meeting #
 
-* Tuesday, January 8
-* At CustomInk
-* Real World Ruby Tricks - Robie Lutsey
-* What else should we talk about?
+* February 10?
