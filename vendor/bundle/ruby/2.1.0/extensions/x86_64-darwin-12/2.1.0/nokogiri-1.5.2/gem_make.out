@@ -1,4 +1,4 @@
-/opt/chefdk/embedded/bin/ruby -r ./siteconf20150210-89893-hsi46z.rb extconf.rb 
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20150210-93947-hpfk9.rb extconf.rb 
 extconf.rb:10:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
 extconf.rb:10:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
 extconf.rb:11:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
@@ -64,5 +64,5 @@ linking shared-object nokogiri/nokogiri.bundle
 ld: warning: directory not found for option '-L/opt/local/lib'
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20150210-89893-o7grk6/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20150210-93947-38stsg/nokogiri
 installing default nokogiri libraries

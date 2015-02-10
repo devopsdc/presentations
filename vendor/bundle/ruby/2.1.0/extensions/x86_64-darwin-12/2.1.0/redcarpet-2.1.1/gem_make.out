@@ -1,4 +1,4 @@
-/opt/chefdk/embedded/bin/ruby -r ./siteconf20150210-89893-1mv2zsm.rb extconf.rb 
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20150210-93947-1wbjoor.rb extconf.rb 
 creating Makefile
 
 make "DESTDIR=" clean
@@ -475,5 +475,5 @@ compiling stack.c
 linking shared-object redcarpet.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20150210-89893-1tss7xx
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20150210-93947-rtdbqw
 installing default redcarpet libraries
