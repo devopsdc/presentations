@@ -3,18 +3,22 @@
 ![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
-# USPTO DevOps Meetup #
+# Planning sessions
 
-* January 14 - 5:30 - 8:00
-* At the USPTO with Ryan Frantz and Daniel Schauenberg from Etsy
-
-![USPTO Meetup](../images/uspto_devops_meetup.jpg)
+* Two weeks after each meetup
+* Google Hangout
+* What do you see for 2015 & DevOpsDC?
+* Tweet #planning to @devopsdc or leave a message at MeetUp
+* Tuesday, February 24 at 3:00 PM EST
 
 !SLIDE
-
 # DevOpsDays DC #
 
-* We are bringing DevOpsDays to DC
+* June 11 & 12
+* USPTO in Arlington
+* @devopsdaysdc
+* organizers-washington-dc-2015@devopsdays.org
+* http://devopsdays.org
 
 !SLIDE
 # Introductions & Announcements #
@@ -27,4 +31,5 @@
 !SLIDE
 # Next Meeting #
 
-* February 10?
+* March 10
+* Join us for the planning meeting on February 24th!
