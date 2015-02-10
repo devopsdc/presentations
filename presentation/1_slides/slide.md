@@ -9,5 +9,7 @@
 !SLIDE
 # Sponsors - Thanks! #
 
+![Excella](../images/excella.png)
 
 ![Chef](../images/Chef_Vertical_Website_Reg.png)
+
