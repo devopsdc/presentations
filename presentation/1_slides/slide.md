@@ -6,6 +6,8 @@
 * 7:15 - 8:45 - Talks
 * 8:45 - 9:15 - Networking & conversation
 
+ExcellaGuest / excella2300
+
 !SLIDE
 # Sponsors - Thanks! #
 
