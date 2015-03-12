@@ -10,6 +10,7 @@
 * What do you see for 2015 & DevOpsDC?
 * Tweet #planning to @devopsdc or leave a message at MeetUp
 * Tuesday, March 24 at 10:00 AM EDT
+* https://github.com/devopsdc/devopsdc
 
 !SLIDE
 # DevOpsDays DC #
