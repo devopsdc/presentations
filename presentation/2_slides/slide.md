@@ -5,11 +5,10 @@
 !SLIDE
 # Planning sessions
 
-* Two weeks after each meetup
-* Google Hangout
+* Two weeks after each meetup via Google Hangout
 * What do you see for 2015 & DevOpsDC?
-* Tweet #planning to @devopsdc or leave a message at MeetUp
-* Tuesday, March 24 at 10:00 AM EDT
+* Tuesday, April 29 at 3:00 PM EDT
+* RSVP on Meetup - space is very limited
 * https://github.com/devopsdc/devopsdc
 
 !SLIDE
@@ -22,22 +21,40 @@
 * http://devopsdays.org
 
 !SLIDE
+# Follow @DevOpsDaysDC #
+![@devopsdaysdc](../images/follow_devopsdaysdc.jpg)
+
+!SLIDE
+# DevOpsDays DC #
+
+Call for presenters closes tomorrow!
+
+![CFP](../images/locally_sourced.png)
+
+!SLIDE
 
 # Upcoming Conferences #
 
-* PGConf NYC 2015 - March 25
-* ChefConf - Santa Clara - March 31 - April 2
-* RailsConf - Atlanta - April 21
+* RailsConf - Atlanta - April 21-23
+  * Nathen Harvey will be presenting
 * SATURN 2015 - Baltimore - April 27
+* Jenkins User Conference - Alexandria - June 18
 
 !SLIDE
 # Upcoming Meetups #
 
-* DCRUG - GitHub For Fun and Profit + Time and Date Objects - March 12
-* DC Python - PythonLab: share and learn Python 2.7 - March 14
-* DC Config Mgmt - What's New with Chef - March 24
-* Ansible DC - ANSIBLE Deployment – Inside and Out - March 25
-* Baltimore Puppet - Custom Types & Providers - March 25
+* DC Python - share and learn - 4/18
+* DC Tech - College Demos - 4/21
+* DC Continuous Delivery - Docker: What, Why and How? - 4/22
+* Docker DC - Docker Project's 2nd Birthday Celebration 4/23
+
+!SLIDE
+# More Upcoming Meetups #
+
+* Ansible DC - Migrating To Ansible - 4/23
+* Baltimore Puppet - Fun and Games with Beaker - 4/29
+* Arlington Ruby - The Visual Design of Source Code - 4/29
+* Polyglot Programming DC - Elixir and Haskell Typeclasses - 5/6
 
 !SLIDE
 # Upcoming Training #
@@ -58,8 +75,8 @@ Discount Code:  MEETUP
 !SLIDE
 # Next Meeting #
 
-* April 14
-* Intro to CoreOS or, How I Learned To Stop Worrying and Love systemd
-* A model-driven approach to DevOps
+* May 19
+* Full day workshop
+* Open Spaces, Demos, and more
 
 At Excella Consulting

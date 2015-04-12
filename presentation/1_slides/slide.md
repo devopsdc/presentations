@@ -4,8 +4,8 @@
 * 6:30 - 7:00 - Meet, greet, and eat
 * 7:00 - 7:15 - Welcome
 * 7:15 - 8:45 - Talks
-  * Continuous Delivery Tool Chain
-  * Mastering DevOops
+  * Intro to CoreOS
+  * Model-driven approach to DevOps
 * 8:45 - 9:15 - Networking & conversation
 
 
@@ -14,5 +14,5 @@
 
 ![Luminal](../images/luminal-logo.jpg)
 
-![General Assembly](../images/ga_300x300.png)
+![Excella Consulting](../images/excella.png)
 
