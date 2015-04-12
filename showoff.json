@@ -1,0 +1,10 @@
+{ 
+  "name": "DevOpsDC", 
+  "description" : "DevOpsDC Meetup - May 2012",
+  "author" : "Nathen Harvey",
+  "twitter" : "@DevOpsDC",
+  "templates" : {
+    "default" : "style_guide.tpl"
+  },
+  "section" : "presentation"
+}

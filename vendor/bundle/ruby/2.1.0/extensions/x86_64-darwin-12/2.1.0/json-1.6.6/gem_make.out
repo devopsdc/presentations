@@ -1,0 +1,12 @@
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20150210-89893-14oaj6i.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20150210-89893-12r1cgk/json/ext
+installing default parser libraries
