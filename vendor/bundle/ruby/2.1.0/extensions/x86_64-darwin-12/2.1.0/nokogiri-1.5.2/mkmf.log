@@ -52,7 +52,7 @@ have_func: checking for iconv_open() in iconv.h... -------------------- no
 ld: warning: directory not found for option '-L/opt/local/lib'
 Undefined symbols for architecture x86_64:
   "_libiconv_open", referenced from:
-      _t in conftest-1e5132.o
+      _t in conftest-3e6f2a.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
