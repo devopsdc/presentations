@@ -76,7 +76,22 @@ Discount Code:  MEETUP
 # Next Meeting #
 
 * May 19
-* Full day workshop
+* Full day workshop - Intro to Infrastructure Automation
 * Open Spaces, Demos, and more
 
 At Excella Consulting
+
+!SLIDE
+# Intro to Infrastructure Automation #
+
+* Just enough Chef for DevOps
+* Test-driven infrastructure
+* Versioning and merging your infrastructure
+* A devops release with Jenkins
+* Free, enrollment capped at 12
+
+!SLIDE
+# Diversifying DevOps #
+
+[!SiliconValley](../images/silicon-valley.jpg)
+* Please, don't be the first to register if you see yourself here
