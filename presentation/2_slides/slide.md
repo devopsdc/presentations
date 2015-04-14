@@ -86,7 +86,7 @@ At Excella Consulting
 
 * Just enough Chef for DevOps
 * Test-driven infrastructure
-* Versioning and merging your infrastructure
+* Versioning &amp; merging 
 * A devops release with Jenkins
 * Free, enrollment capped at 12
 
