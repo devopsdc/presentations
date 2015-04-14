@@ -51,10 +51,10 @@ Call for presenters closes tomorrow!
 !SLIDE
 # More Upcoming Meetups #
 
-* Ansible DC - Migrating To Ansible - 4/23
-* Baltimore Puppet - Fun and Games with Beaker - 4/29
-* Arlington Ruby - The Visual Design of Source Code - 4/29
-* Polyglot Programming DC - Elixir and Haskell Typeclasses - 5/6
+* Ansible - Migrating To Ansible - 4/23
+* Baltimore Puppet - Fun &amp; Games with Beaker - 4/29
+* Arlington Ruby - Visual Design of Source Code - 4/29
+* Polyglot Programming - Elixir &amp; Haskell Typeclasses - 5/6
 
 !SLIDE
 # Upcoming Training #
@@ -93,5 +93,6 @@ At Excella Consulting
 !SLIDE
 # Diversifying DevOps #
 
-[!SiliconValley](../images/silicon-valley.jpg)
+![SiliconValley](../images/silicon-valley.jpg)
+
 * Please, don't be the first to register if you see yourself here
