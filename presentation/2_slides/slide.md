@@ -5,62 +5,91 @@
 !SLIDE
 # Planning sessions
 
-* Two weeks after each meetup via Google Hangout
+* ~ Two weeks after each meetup via Google Hangout
 * What do you see for 2015 & DevOpsDC?
-* Tuesday, April 29 at 3:00 PM EDT
+* Thursday, Jul 30 at 10:00 AM EDT
 * RSVP on Meetup - space is very limited
 * https://github.com/devopsdc/devopsdc
 
 !SLIDE
 # DevOpsDays DC #
 
-* June 11 & 12
-* USPTO in Arlington
-* @devopsdaysdc
-* organizers-washington-dc-2015@devopsdays.org
-* http://devopsdays.org
+* http://devopsdaysdc.org
 
-!SLIDE
-# Follow @DevOpsDaysDC #
-![@devopsdaysdc](../images/follow_devopsdaysdc.jpg)
-
-!SLIDE
-# DevOpsDays DC #
-
-Call for presenters closes tomorrow!
-
-![CFP](../images/locally_sourced.png)
+![@devopsdc](../images/devopsdaysdc.png)
 
 !SLIDE
 
 # Upcoming Conferences #
 
-* RailsConf - Atlanta - April 21-23
-  * Nathen Harvey will be presenting
-* SATURN 2015 - Baltimore - April 27
-* Jenkins User Conference - Alexandria - June 18
+* springone 2GX - Sept 14-17, DC
+* DevOpsDays Boston - Sept 15-16
+* Surge - Sept 23-25, National Harbor
+* DevOpsDays Pittsburgh - Aug 13-14
+
+!SLIDE
+
+# Upcoming Conferences #
+
+* Chef Community Summit - Oct 14-15, Seattle
+* All Things Open - Oct 18-20, Raleigh
+* LISA - Nov 8-13, DC
+
 
 !SLIDE
 # Upcoming Meetups #
 
-* DC Python - share and learn - 4/18
-* DC Tech - College Demos - 4/21
-* DC Continuous Delivery - Docker: What, Why and How? - 4/22
-* Docker DC - Docker Project's 2nd Birthday Celebration 4/23
+* Women Who Code - Jul 15
+* baltimore-python - Jul 15
+* NovaJS - Jul 15
+* Full Stack DC - Jul 15
 
 !SLIDE
-# More Upcoming Meetups #
+# Upcoming Meetups #
 
-* Ansible - Migrating To Ansible - 4/23
-* Baltimore Puppet - Fun &amp; Games with Beaker - 4/29
-* Arlington Ruby - Visual Design of Source Code - 4/29
-* Polyglot Programming - Elixir &amp; Haskell Typeclasses - 5/6
+* Baltimore Node - Jul 16
+* NOVA Python - Jul 16
+* NodeDC - Jul 16
+* Learn Ruby in DC! - Jul 18
+
+!SLIDE
+# Upcoming Meetups #
+
+* OpenStack DC - Jul 20
+* Agile Professionals - Jul 21
+* Data Education DC - Jul 22
+* Arlington Ruby - Jul 22
+* DC Agile User Group - Jul 22
+
+!SLIDE
+# Upcoming Meetups #
+
+* Cloud DC - Jul 23
+* NoVA Code & Coffee - Jul 25
+* Google Developer Group - Jul 27
+* Cassandra DC Meetup - Jul 28
+* DC Ruby User Group - Jul 28
+
+!SLIDE
+# Upcoming Meetups #
+
+* Startup DC - Jul 29
+* Analytics.Club - Jul 31
+
+!SLIDE
+# Upcoming Meetups #
+
+* DC Web API User Group - Aug 4
+* Girl Develop It Baltimore - Aug 4
+* Columbia Area Linux User Group - Aug 12
+* Baltimore Drupal Meetup - Aug 12
+* Tech Talk DC - Aug 19
 
 !SLIDE
 # Upcoming Training #
 
-* Chef Intermediate Topics - April 28-29
-* Chef Fundamentals - April 30 - May 1
+* Chef Intermediate Topics - Aug 10-11
+* Chef Fundamentals - Aug 12-13
 
 Discount Code:  MEETUP
 
@@ -75,24 +104,6 @@ Discount Code:  MEETUP
 !SLIDE
 # Next Meeting #
 
-* May 19
-* Full day workshop - Intro to Infrastructure Automation
-* Open Spaces, Demos, and more
-
-At Excella Consulting
-
-!SLIDE
-# Intro to Infrastructure Automation #
-
-* Just enough Chef for DevOps
-* Test-driven infrastructure
-* Versioning &amp; merging 
-* A devops release with Jenkins
-* Free, enrollment capped at 12
-
-!SLIDE
-# Diversifying DevOps #
-
-![SiliconValley](../images/silicon-valley.jpg)
-
-* Please, don't be the first to register if you see yourself here
+* Aug 11
+* Excella Consulting
+* Sponsors, speakers, topics appreciated
