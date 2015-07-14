@@ -3,6 +3,13 @@
 ![@devopsdc](../images/follow-devopsdc.png)
 
 !SLIDE
+# Slack!
+
+http://dctechslack.herokuapp.com
+
+![slack](../images/slack.png)
+
+!SLIDE
 # Planning sessions
 
 * ~ Two weeks after each meetup via Google Hangout
@@ -24,7 +31,7 @@
 
 * springone 2GX - Sept 14-17, DC
 * DevOpsDays Boston - Sept 15-16
-* Surge - Sept 23-25, National Harbor
+* Surge - Sept 23-25, National Harbor (discount:  devopsdc)
 * DevOpsDays Pittsburgh - Aug 13-14
 
 !SLIDE
