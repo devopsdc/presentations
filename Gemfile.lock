@@ -39,3 +39,6 @@ DEPENDENCIES
   pdfkit
   showoff!
   wkhtmltopdf-binary
+
+BUNDLED WITH
+   1.10.0

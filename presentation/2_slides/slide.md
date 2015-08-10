@@ -14,7 +14,7 @@ http://dctechslack.herokuapp.com
 
 * ~ Two weeks after each meetup via Google Hangout
 * What do you see for 2015 & DevOpsDC?
-* Thursday, Jul 30 at 10:00 AM EDT
+* Friday, Aug 28 at 10:00 AM EDT
 * RSVP on Meetup - space is very limited
 * https://github.com/devopsdc/devopsdc
 
@@ -29,10 +29,10 @@ http://dctechslack.herokuapp.com
 
 # Upcoming Conferences #
 
+* DevFest DC - Sept 11-12, Dulles
 * springone 2GX - Sept 14-17, DC
 * DevOpsDays Boston - Sept 15-16
 * Surge - Sept 23-25, National Harbor (discount:  devopsdc)
-* DevOpsDays Pittsburgh - Aug 13-14
 
 !SLIDE
 
@@ -46,59 +46,75 @@ http://dctechslack.herokuapp.com
 !SLIDE
 # Upcoming Meetups #
 
-* Women Who Code - Jul 15
-* baltimore-python - Jul 15
-* NovaJS - Jul 15
-* Full Stack DC - Jul 15
+* Columbia Area Linux - Aug 12
+* Baltimore Drupal - Aug 12
+* Washington DC OWASP - Aug 12
+* Arlington Ruby - Aug 12
+* VA and DC Business and Tech Industry - Aug 13
 
 !SLIDE
 # Upcoming Meetups #
 
-* Baltimore Node - Jul 16
-* NOVA Python - Jul 16
-* NodeDC - Jul 16
-* Learn Ruby in DC! - Jul 18
+* Baltimore Washington Java - Aug 13
+* Baltimore Node - Aug 13
+* Amazon Web Services - Virginia - Aug 13
+* DC Ruby Users Group - Aug 13
+* Learn Ruby in DC! - Aug 15
 
 !SLIDE
 # Upcoming Meetups #
 
-* OpenStack DC - Jul 20
-* Agile Professionals - Jul 21
-* Data Education DC - Jul 22
-* Arlington Ruby - Jul 22
-* DC Agile User Group - Jul 22
+* DC Python - Aug 15
+* Girl Develop It Baltimore - Aug 16
+* Washington DC Area Apache Spark Interactive - Aug 18
+* Agile Professionals - Aug 18
+* WordPress DC - Aug 18
 
 !SLIDE
 # Upcoming Meetups #
 
-* Cloud DC - Jul 23
-* NoVA Code & Coffee - Jul 25
-* Google Developer Group - Jul 27
-* Cassandra DC Meetup - Jul 28
-* DC Ruby User Group - Jul 28
-
-!SLIDE
-# Upcoming Meetups #
-
-* Startup DC - Jul 29
-* Analytics.Club - Jul 31
-
-!SLIDE
-# Upcoming Meetups #
-
-* DC Web API User Group - Aug 4
-* Girl Develop It Baltimore - Aug 4
-* Columbia Area Linux User Group - Aug 12
-* Baltimore Drupal Meetup - Aug 12
+* ClojureDC - Aug 18
+* Richmond MongoDB - Aug 18
+* Baltimore SQL Server - Aug 18
 * Tech Talk DC - Aug 19
+* baltimore-python - Aug 19
 
 !SLIDE
-# Upcoming Training #
+# Upcoming Meetups #
 
-* Chef Intermediate Topics - Aug 10-11
-* Chef Fundamentals - Aug 12-13
+* Full Stack Dc - Aug 19
+* nodeDC - Aug 19
+* Statistical Programming DC - Aug 19
+* The Iron Yard - Aug 20
+* Baltimore Techies for Good - Aug 20
 
-Discount Code:  MEETUP
+!SLIDE
+# Upcoming Meetups #
+
+* Mobile-First, Cloud-First - Aug 20
+* NoVA Code & Coffee - Aug 22
+* Hacks Hackers - Aug 24
+* Baltimore MongoDB - Aug 25
+* DC PHP Developer's - Aug 25
+
+!SLIDE
+# Upcoming Meetups #
+
+* DC Agile Software Testing - Aug 26
+* Big Data DC - Aug 27
+* tech in motion DC - Aug 27
+* DevOpsCV - Sep 1
+* Polyglot Programming DC - Sep 2
+* OpenStack DC - Sep 2
+
+!SLIDE
+# Upcoming Meetups #
+
+* The Ethical Hackers Club (TEHC) - Sep 2
+* DockerDC - Sep 3
+* Annapolis Linux User Group - Sep 7
+* DC Organizational Agility Practitioners - Sep 14
+* DC Tech Meetup - Sep 15
 
 !SLIDE
 # Introductions & Announcements #
@@ -109,8 +125,15 @@ Discount Code:  MEETUP
 * Something we all should know?
 
 !SLIDE
-# Next Meeting #
+# Upcoming Meetings #
 
-* Aug 11
-* Excella Consulting
-* Sponsors, speakers, topics appreciated
+* Planning - Fri., Aug 28
+* September 15
+* October 13
+* November 10 - State of DevOps Report discussion / book club
+* December 8
+
+!SLIDE
+# Code of Conduct #
+
+https://github.com/devopsdc/devopsdc/issues/12
