@@ -42,6 +42,11 @@ http://dctechslack.herokuapp.com
 * All Things Open - Oct 18-20, Raleigh
 * LISA - Nov 8-13, DC
 
+# Upcoming Webinar #
+
+* Chef Community: How to engage with and learn from Chef practitioners
+* Tomorrow at 1:00PM
+* chef.io/events
 
 !SLIDE
 # Upcoming Meetups #
