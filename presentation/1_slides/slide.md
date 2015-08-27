@@ -1,16 +1,9 @@
 !SLIDE
 # DevOpsDC #
 
-* 6:30 - 7:00 - Meet, greet, and eat
-* 7:00 - 8:45 - Talks
-  * Welcome
-  * Magic, Myth, and the DevOps
-  * Lean Coffee
-* 8:45 - 9:15 - Networking & conversation
+* 8:00 - 8:30 - Meet, greet, and eat
+* 8:30 - 8:40 - Welcome
+* 8:40 - 9:00 - Barry Crist
+* 9:00 - 9:20 - Audit & Compliance with Chef
+* 9:20 - 10:00 - Networking and Q & A
 
-!SLIDE
-# Sponsors - Thanks! #
-
-![DevOpsDays DC](../images/big_doddc_logo.jpg)
-
-![Excella Consulting](../images/excella.png)
