@@ -13,16 +13,7 @@ http://dctechslack.herokuapp.com
 
 # Upcoming Conferences #
 
-* DevFest DC - Sept 11-12, Dulles
-* springone 2GX - Sept 14-17, DC
-* DevOpsDays Boston - Sept 15-16
 * Surge - Sept 23-25, National Harbor (discount:  devopsdc)
-
-!SLIDE
-
-# Upcoming Conferences #
-
-* Chef Community Summit - Oct 14-15, Seattle
 * All Things Open - Oct 18-20, Raleigh
 * LISA - Nov 8-13, DC
 
@@ -37,12 +28,11 @@ http://dctechslack.herokuapp.com
 !SLIDE
 # Upcoming DevOpsDC Meetups #
 
-* September 15
-* October 13
+* October 6 - Incident Management & Post Mortems
 * November 10 - State of DevOps Report discussion / book club
 * December 8
 
 !SLIDE
 # Code of Conduct #
 
-https://github.com/devopsdc/devopsdc/issues/12
+UPDATE THIS preamble & link
