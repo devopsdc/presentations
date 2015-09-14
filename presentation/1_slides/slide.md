@@ -9,3 +9,9 @@
 !SLIDE
 
 # Sponsors #
+
+![Learning Objects](../images/loi.png)
+
+![New Relic](../images/newreliclogo.png)
+
+![Chef](../images/Chef_Vertical_Website_Reg.png)
