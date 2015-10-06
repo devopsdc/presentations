@@ -21,18 +21,8 @@ All presentations now available as part of the newly launched DevOpsDays Podcast
 
 !SLIDE
 
-# New Relic User Group #
-
-* Tomorrow night
-* bit.ly/dcdevopnrug
-* Marriott Marquis
-* 6:00 - 8:30
-
-!SLIDE
-
 # Upcoming Conferences #
 
-* Surge - Sept 23-25, National Harbor (discount:  devopsdc)
 * All Things Open - Oct 18-20, Raleigh
 * LISA - Nov 8-13, DC
 
@@ -47,9 +37,9 @@ All presentations now available as part of the newly launched DevOpsDays Podcast
 !SLIDE
 # Upcoming DevOpsDC Meetups #
 
-* October 6 - Incident Management & Post Mortems
 * November 10 - State of DevOps Report discussion / book club
-* December 8 - TBD
+* November 12 - TBA
+* December 8 - TBD? Would you attend a meetup in December?
 
 !SLIDE
 # Code of Conduct #
