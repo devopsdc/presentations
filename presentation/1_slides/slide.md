@@ -1,9 +1,17 @@
 !SLIDE
 # DevOpsDC #
 
-* 8:00 - 8:30 - Meet, greet, and eat
-* 8:30 - 8:40 - Welcome
-* 8:40 - 9:00 - Barry Crist
-* 9:00 - 9:20 - Audit & Compliance with Chef
-* 9:20 - 10:00 - Networking and Q & A
+* 6:30 - 7:00 - Meet, greet, and eat
+* 7:00 - 7:15 - Welcome
+* 7:15 - 8:45 - Presentations
+* 8:45 - 9:15 - Networking
 
+!SLIDE
+
+# Sponsors #
+
+![Learning Objects](../images/loi.png)
+
+![New Relic](../images/newreliclogo.png)
+
+![Chef](../images/Chef_Vertical_Website_Reg.png)

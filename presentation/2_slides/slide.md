@@ -11,18 +11,28 @@ http://dctechslack.herokuapp.com
 
 !SLIDE
 
-# Upcoming Conferences #
+# DevOpsDays DC #
 
-* DevFest DC - Sept 11-12, Dulles
-* springone 2GX - Sept 14-17, DC
-* DevOpsDays Boston - Sept 15-16
-* Surge - Sept 23-25, National Harbor (discount:  devopsdc)
+![devopsdaysdc](../images/devopsdaysdc.png)
+
+All presentations now available as part of the newly launched DevOpsDays Podcast!
+
+![DevOpsDays Podcast](../images/dodpodcast.png)
+
+!SLIDE
+
+# New Relic User Group #
+
+* Tomorrow night
+* bit.ly/dcdevopnrug
+* Marriott Marquis
+* 6:00 - 8:30
 
 !SLIDE
 
 # Upcoming Conferences #
 
-* Chef Community Summit - Oct 14-15, Seattle
+* Surge - Sept 23-25, National Harbor (discount:  devopsdc)
 * All Things Open - Oct 18-20, Raleigh
 * LISA - Nov 8-13, DC
 
@@ -37,12 +47,15 @@ http://dctechslack.herokuapp.com
 !SLIDE
 # Upcoming DevOpsDC Meetups #
 
-* September 15
-* October 13
+* October 6 - Incident Management & Post Mortems
 * November 10 - State of DevOps Report discussion / book club
-* December 8
+* December 8 - TBD
 
 !SLIDE
 # Code of Conduct #
 
-https://github.com/devopsdc/devopsdc/issues/12
+[http://www.meetup.com/DevOpsDC/pages/Code\_of\_Conduct/](http://www.meetup.com/DevOpsDC/pages/Code_of_Conduct/)
+
+We value the participation of each member of the community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout all Meetup events.
+
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers, and volunteers at any DevOpsDC event are required to conform to our Code of Conduct. Organizers will enforce this code throughout events.
