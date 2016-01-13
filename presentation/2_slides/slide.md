@@ -22,17 +22,11 @@ http://dctechslack.herokuapp.com
 
 # DevOpsDays DC #
 
-![devopsdaysdc](../images/devopsdaysdc.png)
+![devopsdaysdc](../images/devopsdc_2016.png)
 
 All presentations now available as part of the newly launched DevOpsDays Podcast!
 
 ![DevOpsDays Podcast](../images/dodpodcast.png)
-
-!SLIDE
-# Upcoming DevOpsDC Meetups #
-
-* Thursday - Lightning Talks & Networking - USPTO in Alexandria, VA
-* December - We are taking a month off, see you in 2016!
 
 !SLIDE
 # Introductions & Announcements #
