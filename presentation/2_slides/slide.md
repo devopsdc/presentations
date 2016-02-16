@@ -24,6 +24,13 @@ http://dctechslack.herokuapp.com
 
 ![devopsdaysdc](../images/doddc_2016.png)
 
+!SLIDE
+
+# March Meetup
+
+* Successful Practices for Continuous Delivery
+* Monday, March 14
+* Capital One - McLean
 
 !SLIDE
 # Introductions & Announcements #
