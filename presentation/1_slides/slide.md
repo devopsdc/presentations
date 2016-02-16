@@ -4,15 +4,17 @@
 
 * 6:30 - 7:00 - Meet, greet, and eat
 * 7:00 - 7:15 - Intros & Welcome
-* 7:15 - 7:55 - Jenkins Workflow
-* 8:00 - 8:40 - Shhh!  It's a Secret
+* 7:15 - 7:55 - Terraform
+* 8:00 - 8:40 - TeamCity & Octopus Deploy:  So Happy Together
 * 8:40 - 9:00 - Networking
-* 9:00 - State of the Union
+
+WiFi:  Walmartwifi
+
 
 !SLIDE
 
 # Sponsors #
 
-![Excella](../images/excella.png)
+![Walmart](../images/walmart.png)
 
-![fugue](../images/Fugue_Logo_White_Background.png)
+![Chef](../images/Chef_Vertical_Website_Reg.png)

@@ -22,11 +22,8 @@ http://dctechslack.herokuapp.com
 
 # DevOpsDays DC #
 
-![devopsdaysdc](../images/devopsdc_2016.png)
+![devopsdaysdc](../images/doddc_2016.png)
 
-All presentations now available as part of the newly launched DevOpsDays Podcast!
-
-![DevOpsDays Podcast](../images/dodpodcast.png)
 
 !SLIDE
 # Introductions & Announcements #
