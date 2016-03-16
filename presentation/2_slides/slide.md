@@ -14,7 +14,7 @@ To make clear what is expected, all delegates/attendees, speakers, exhibitors, o
 !SLIDE
 # Slack!
 
-http://dctechslack.herokuapp.com
+http://www.dctechslack.com/
 
 ![slack](../images/slack.png)
 
@@ -22,15 +22,39 @@ http://dctechslack.herokuapp.com
 
 # DevOpsDays DC #
 
-![devopsdaysdc](../images/doddc_2016.png)
+![DevOpsDays DC](../images/doddc_2016.png)
+
+!SLIDE
+![DC-continuous-delivery](../images/dccd.png)
+
+!SLIDE
+![infrastructure-as-code](../images/iac.png)
 
 !SLIDE
 
-# March Meetup
+![DC-Configuration-Management-Group](../images/dccm.png)
 
-* Successful Practices for Continuous Delivery
-* Monday, March 14
-* Capital One - McLean
+!SLIDE
+
+![dc_edo_and_agile](../images/dc_edo_and_agile.png)
+
+!SLIDE
+
+![Happy Birthday](../images/5-yr-old-kids-unicorn-rainbow-birthday-cake-Sweet-Cheeks-740x491.jpg)
+
+!SLIDE
+
+![chefconf_2016](../images/chefconf_2016.png)
+
+
+!SLIDE
+
+# April Meetup
+
+* Cumulus Networks - What is NetDevOps?
+* Ansible - What's New in Ansible 2.0
+* Tuesday, April 12
+* Excella Consulting - Arlington
 
 !SLIDE
 # Introductions & Announcements #
