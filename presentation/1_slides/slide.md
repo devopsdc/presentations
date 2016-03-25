@@ -3,14 +3,15 @@
 
 
 * 6:30 - 7:00 - Meet, greet, and eat
-* 7:00 - 7:20 - Intros & Welcome
-* 7:20 - 8:40 - Successful Practices for Continuous Delivery
-* 8:40 - 9:00 - Networking
+* 7:00 - 7:15 - Intros & Welcome
+* 7:15 - 7:55 - NetDevOps
+* 8:05 - 8:45 - Ansible 2.0
+* 8:45 - 9:00 - Networking
 
 !SLIDE
 
 # Sponsors #
 
-![CapitalOne](../images/capone.png)
+![Excella Consulting](../images/excella.png)
 
-![Chef](../images/Chef_Vertical_Website_Reg.png)
+![Valiant Solutions, LLC](../images/valiant.png)

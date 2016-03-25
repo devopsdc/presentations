@@ -25,35 +25,15 @@ http://www.dctechslack.com/
 ![DevOpsDays DC](../images/doddc_2016.png)
 
 !SLIDE
-![DC-continuous-delivery](../images/dccd.png)
-
-!SLIDE
-![infrastructure-as-code](../images/iac.png)
-
-!SLIDE
-
-![DC-Configuration-Management-Group](../images/dccm.png)
-
-!SLIDE
-
-![dc_edo_and_agile](../images/dc_edo_and_agile.png)
-
-!SLIDE
-
-![Happy Birthday](../images/5-yr-old-kids-unicorn-rainbow-birthday-cake-Sweet-Cheeks-740x491.jpg)
-
-!SLIDE
 
 ![chefconf_2016](../images/chefconf_2016.png)
 
 
 !SLIDE
 
-# April Meetup
+# May Meetup
 
-* Cumulus Networks - What is NetDevOps?
-* Ansible - What's New in Ansible 2.0
-* Tuesday, April 12
+* Tuesday, May 10
 * Excella Consulting - Arlington
 
 !SLIDE
