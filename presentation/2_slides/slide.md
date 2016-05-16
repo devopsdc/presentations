@@ -26,15 +26,19 @@ http://www.dctechslack.com/
 
 !SLIDE
 
-![chefconf_2016](../images/chefconf_2016.png)
-
+![chefconf_2016](../images/chefconf2016.png)
 
 !SLIDE
 
-# May Meetup
+![Surge](../images/surge2016.png)
 
-* Tuesday, May 10
-* Excella Consulting - Arlington
+!SLIDE
+
+# June Meetup
+
+* No June Meetup
+* Come to DevOpsDays DC!
+* Don't have a ticket?  Join the waitlist.
 
 !SLIDE
 # Introductions & Announcements #

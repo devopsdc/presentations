@@ -8,7 +8,9 @@
   </span>
   -->
   <span class="twitter">
+    <!--
     <img src="https://si0.twimg.com/a/1334333797/images/logos/twitter_newbird_blue.png" width="51" height="50" />
+    -->
     ~~~CONFIG:twitter~~~
   </span>
 </footer>
