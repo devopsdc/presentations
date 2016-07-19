@@ -13,7 +13,7 @@ ECHO = $(ECHO1:0=@echo)
 srcdir = .
 topdir = /opt/chefdk/embedded/include/ruby-2.1.0
 hdrdir = $(topdir)
-arch_hdrdir = /opt/chefdk/embedded/include/ruby-2.1.0/x86_64-darwin12.0
+arch_hdrdir = /opt/chefdk/embedded/include/ruby-2.1.0/x86_64-darwin13.0
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
 prefix = $(DESTDIR)/opt/chefdk/embedded
@@ -30,8 +30,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20150210-93947-38stsg
-sitelibdir = $(DESTDIR)./.gem.20150210-93947-38stsg
+sitearchdir = $(DESTDIR)./.gem.20160515-30716-u7t41a
+sitelibdir = $(DESTDIR)./.gem.20160515-30716-u7t41a
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -78,11 +78,11 @@ optflags = -O3 -fno-fast-math
 debugflags = -ggdb3
 warnflags = -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration -Wdivision-by-zero -Wextra-tokens
 CCDLFLAGS = -fno-common
-CFLAGS   = $(CCDLFLAGS) -I/opt/chefdk/embedded/include -I/opt/chefdk/embedded/include/ncurses -arch x86_64 -O3 -g -pipe -Qunused-arguments -fno-common  -g -DXP_UNIX $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS) -I/opt/chefdk/embedded/include -O2 -I/opt/chefdk/embedded/include/ncurses -arch x86_64 -O3 -g -pipe -Qunused-arguments -fno-common  -g -DXP_UNIX $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS = -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/opt/chefdk/embedded/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2  -I/opt/chefdk/embedded/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
-CXXFLAGS = $(CCDLFLAGS) -I/opt/chefdk/embedded/include -I/opt/chefdk/embedded/include/ncurses -arch x86_64 -O3 -g -pipe -Qunused-arguments $(ARCH_FLAG)
+CPPFLAGS = -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -I/usr/local/Cellar/libxml2/2.9.2/include/libxml2 -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/opt/chefdk/embedded/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/opt/chefdk/embedded/include -O2 -I/opt/chefdk/embedded/include/ncurses -arch x86_64 -m64 -O3 -g -pipe -Qunused-arguments -I/opt/chefdk/embedded/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
+CXXFLAGS = $(CCDLFLAGS) -I/opt/chefdk/embedded/include -O2 -I/opt/chefdk/embedded/include/ncurses -arch x86_64 -O3 -g -pipe -Qunused-arguments $(ARCH_FLAG)
 ldflags  = -L. -L/opt/chefdk/embedded/lib -arch x86_64 -fstack-protector -L/opt/chefdk/embedded/lib 
 dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/opt/chefdk/embedded/lib  
 ARCH_FLAG = -m64
@@ -99,7 +99,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = x86_64-darwin12.0
+arch = x86_64-darwin13.0
 sitearch = $(arch)
 ruby_version = 2.1.0
 ruby = $(bindir)/ruby
@@ -120,8 +120,8 @@ TOUCH = exit >
 
 preload = 
 
-libpath = . $(libdir) /opt/local/lib /usr/local/lib /opt/chefdk/embedded/lib /usr/lib
-LIBPATH =  -L. -L$(libdir) -L/opt/local/lib -L/usr/local/lib -L/opt/chefdk/embedded/lib -L/usr/lib
+libpath = . $(libdir) /usr/local/Cellar/libxml2/2.9.2/lib /opt/local/lib /usr/local/lib /opt/chefdk/embedded/lib /usr/lib
+LIBPATH =  -L. -L$(libdir) -L/usr/local/Cellar/libxml2/2.9.2/lib -L/opt/local/lib -L/usr/local/lib -L/opt/chefdk/embedded/lib -L/usr/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log
