@@ -1,0 +1,483 @@
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/redcarpet-2.1.1/ext/redcarpet
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20160515-30716-17mpr3i.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/redcarpet-2.1.1/ext/redcarpet
+make "DESTDIR=" clean
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/redcarpet-2.1.1/ext/redcarpet
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+rc_markdown.c:124:3: warning: passing 'char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                RSTRING_PTR(text),
+                ^~~~~~~~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/ruby.h:846:5: note: expanded from macro 'RSTRING_PTR'
+    (!(RBASIC(str)->flags & RSTRING_NOEMBED) ? \
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./markdown.h:120:51: note: passing argument to parameter 'document' here
+sd_markdown_render(struct buf *ob, const uint8_t *document, size_t doc_size, struct sd_markdown *md);
+                                                  ^
+rc_markdown.c:129:27: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        text = redcarpet_str_new(output_buf->data, output_buf->size, rb_enc_get(text));
+                                 ^~~~~~~~~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+2 warnings generated.
+compiling rc_render.c
+rc_render.c:52:34: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("block_code", 2, buf2str(text), buf2str(lang));
+                                        ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:52:49: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("block_code", 2, buf2str(text), buf2str(lang));
+                                                       ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:58:35: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("block_quote", 1, buf2str(text));
+                                         ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:64:34: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("block_html", 1, buf2str(text));
+                                        ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:70:30: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("header", 2, buf2str(text), INT2FIX(level));
+                                    ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:82:28: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("list", 2, buf2str(text),
+                                  ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:89:33: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("list_item", 2, buf2str(text),
+                                       ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:96:33: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("paragraph", 1, buf2str(text));
+                                       ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:102:29: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("table", 2, buf2str(header), buf2str(body));
+                                   ^~~~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:102:46: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("table", 2, buf2str(header), buf2str(body));
+                                                    ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:108:33: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("table_row", 1, buf2str(text));
+                                       ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:134:34: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("table_cell", 2, buf2str(text), rb_align);
+                                        ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:146:31: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("autolink", 2, buf2str(link),
+                                     ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:153:31: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("codespan", 1, buf2str(text));
+                                     ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:159:38: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("double_emphasis", 1, buf2str(text));
+                                            ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:165:31: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("emphasis", 1, buf2str(text));
+                                     ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:171:28: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("image", 3, buf2str(link), buf2str(title), buf2str(alt));
+                                  ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:171:43: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("image", 3, buf2str(link), buf2str(title), buf2str(alt));
+                                                 ^~~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:171:59: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("image", 3, buf2str(link), buf2str(title), buf2str(alt));
+                                                                 ^~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:183:27: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("link", 3, buf2str(link), buf2str(title), buf2str(content));
+                                 ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:183:42: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("link", 3, buf2str(link), buf2str(title), buf2str(content));
+                                                ^~~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:183:58: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("link", 3, buf2str(link), buf2str(title), buf2str(content));
+                                                                ^~~~~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:189:31: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("raw_html", 1, buf2str(text));
+                                     ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:195:38: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("triple_emphasis", 1, buf2str(text));
+                                            ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:201:36: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("strikethrough", 1, buf2str(text));
+                                          ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:207:34: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        SPAN_CALLBACK("superscript", 1, buf2str(text));
+                                        ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:21:60: note: expanded from macro 'SPAN_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:216:30: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("entity", 1, buf2str(text));
+                                    ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:222:35: warning: passing 'uint8_t *const' (aka 'unsigned char *const') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        BLOCK_CALLBACK("normal_text", 1, buf2str(text));
+                                         ^~~~~~~~~~~~~
+rc_render.c:44:45: note: expanded from macro 'buf2str'
+#define buf2str(t) ((t) ? redcarpet_str_new((t)->data, (t)->size, opt->active_enc) : Qnil)
+                                            ^~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+rc_render.c:30:60: note: expanded from macro 'BLOCK_CALLBACK'
+        VALUE ret = rb_funcall(opt->self, rb_intern(method_name), __VA_ARGS__);\
+                                                                  ^~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+rc_render.c:413:33: warning: passing 'char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        sdhtml_smartypants(output_buf, RSTRING_PTR(text), RSTRING_LEN(text));
+                                       ^~~~~~~~~~~~~~~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/ruby.h:846:5: note: expanded from macro 'RSTRING_PTR'
+    (!(RBASIC(str)->flags & RSTRING_NOEMBED) ? \
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./html.h:65:51: note: passing argument to parameter 'text' here
+sdhtml_smartypants(struct buf *ob, const uint8_t *text, size_t size);
+                                                  ^
+rc_render.c:414:29: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        result = redcarpet_str_new(output_buf->data, output_buf->size, rb_enc_get(text));
+                                   ^~~~~~~~~~~~~~~~
+./redcarpet.h:10:60: note: expanded from macro 'redcarpet_str_new'
+#       define redcarpet_str_new(data, size, enc) rb_enc_str_new(data, size, enc)
+                                                                 ^~~~
+/opt/chefdk/embedded/include/ruby-2.1.0/ruby/encoding.h:91:33: note: passing argument to parameter here
+VALUE rb_enc_str_new(const char*, long, rb_encoding*);
+                                ^
+30 warnings generated.
+compiling stack.c
+linking shared-object redcarpet.bundle
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/redcarpet-2.1.1/ext/redcarpet
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20160515-30716-op5863
+installing default redcarpet libraries

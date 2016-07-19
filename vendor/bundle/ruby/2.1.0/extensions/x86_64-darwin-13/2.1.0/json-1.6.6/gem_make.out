@@ -1,0 +1,16 @@
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/json-1.6.6/ext/json/ext/parser
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20160515-30716-qjfks0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/json-1.6.6/ext/json/ext/parser
+make "DESTDIR=" clean
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/json-1.6.6/ext/json/ext/parser
+make "DESTDIR="
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/nathenharvey/projects/devopsdc/presentations/vendor/bundle/ruby/2.1.0/gems/json-1.6.6/ext/json/ext/parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20160515-30716-1g4w9ft/json/ext
+installing default parser libraries
